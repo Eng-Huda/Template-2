@@ -807,9 +807,14 @@ p.powered {
     float: right;
 }
 p.powered {
+	direction: rtl;
     padding: 0;
     float: left;
     margin: 0;
     margin-right: 0px;
     font-weight: 300;
 } 
+.bottomfooter a {
+    text-decoration: underline;
+    color: #888888;
+}
